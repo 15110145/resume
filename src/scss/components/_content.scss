@@ -1,0 +1,19 @@
+.content {
+	&__headline {
+		margin-bottom: 24px;
+	}
+
+	&__title {
+		margin-bottom: 12px;
+	}
+
+	&__block + &__block {
+		margin-top: 56px;
+	}
+}
+
+.content-group {
+	&__item + &__item {
+		margin-top: 64px;
+	}
+}

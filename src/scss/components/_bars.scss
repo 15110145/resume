@@ -1,0 +1,50 @@
+.bars-skill {
+	&__name {
+		text-transform: uppercase;
+		font-size: $font-size-md;
+		font-weight: 500;
+		margin-bottom: 12px;
+	}
+
+	&__bar,
+	&__bar:before {
+		border-radius: 8px;
+		height: 12px;
+	}
+
+	&__bar {
+		position: relative;
+		background-color: $color-gray;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			background-color: $color-primary;
+		}
+	}
+
+	&--advance {
+		.bars-skill__bar:before {
+			width: 98%;
+		}
+	}
+
+	&--intermediate {
+		.bars-skill__bar:before {
+			width: 90%;
+		}
+	}
+
+	&--average {
+		.bars-skill__bar:before {
+			width: 60%;
+		}
+	}
+
+	& + & {
+		margin-top: 40px;
+	}
+}

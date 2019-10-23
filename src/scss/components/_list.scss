@@ -1,0 +1,13 @@
+.list-dotted {
+	li {
+    position: relative;
+    padding-left: 16px;
+
+    &:before {
+      content: '\2500';
+      position: absolute;
+			left: 0;
+			top: 2px;
+    }
+  }
+}

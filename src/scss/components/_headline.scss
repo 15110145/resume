@@ -1,0 +1,29 @@
+.headline,
+.headline-bt {
+	font-weight: 700;
+}
+
+.headline {
+	&--lg {
+		@include font--lg();
+	}
+
+	&--md {
+		@include font--md();
+	}
+}
+
+.headline-bt {
+	color: $color-primary;
+	border-bottom: 4px solid $color-primary;
+
+	&--xl {
+		@include font--xl();
+		padding-bottom: 20px;
+	}
+
+	&--lg {
+		@include font--lg();
+		padding-bottom: 12px;
+	}
+}

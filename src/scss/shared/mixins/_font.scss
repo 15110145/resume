@@ -1,0 +1,30 @@
+@mixin font-format($font-size, $font-weight, $line-height, $letter-spacing) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin font--xxl() {
+  @include font-format($font-size-xxl, null, null, null);
+}
+
+@mixin font--xl() {
+  @include font-format($font-size-xl, null, null, 1px);
+}
+
+@mixin font--lg() {
+  @include font-format($font-size-lg, null, null, 1px);
+}
+
+@mixin font--md() {
+  @include font-format($font-size-md, null, null, 1px);
+}
+
+@mixin font--sm() {
+  @include font-format($font-size-sm, null, null, null);
+}
+
+@mixin font--xs() {
+  @include font-format($font-size-xs, null, null, null);
+}
