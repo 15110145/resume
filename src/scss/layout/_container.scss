@@ -6,6 +6,11 @@
   padding-right: $container-padding;
   width: $container-width;
 
+  @include mediaquery--mobile() {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   &--page {
     padding-top: 60px;
     padding-bottom: 60px;

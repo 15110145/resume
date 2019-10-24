@@ -1,19 +1,29 @@
 .content {
-	&__headline {
-		margin-bottom: 24px;
-	}
+  &__headline {
+    margin-bottom: 24px;
+  }
 
-	&__title {
-		margin-bottom: 12px;
-	}
+  &__title {
+    margin-bottom: 12px;
+  }
 
-	&__block + &__block {
-		margin-top: 56px;
-	}
+  &__block {
+		&.is-disable {
+			opacity: .2;
+		}
+
+    + .content__block {
+      margin-top: 56px;
+    }
+  }
 }
 
 .content-group {
-	&__item + &__item {
-		margin-top: 64px;
-	}
+  &__item + &__item {
+    margin-top: 64px;
+
+    @include mediaquery--mobile() {
+      margin-top: 40px;
+    }
+  }
 }
