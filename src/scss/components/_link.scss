@@ -1,5 +1,18 @@
-.link {
+a {
 	text-decoration: none;
+	color: inherit;
+}
+
+.link {
+	@include font--md();
+	display: inline-block;
+	font-weight: 500;
+	transition: color ease-in-out .2s;
+
+	svg {
+		vertical-align: middle;
+		margin-right: 8px;
+	}
 
 	&:hover {
 		color: $color-primary;
