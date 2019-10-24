@@ -1,0 +1,20 @@
+.page {
+	position: relative;
+
+	&:after {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		width: 0;
+		height: 0;
+		bottom: 60px;
+		right: 0;
+		width: 450px;
+		height: 60px;
+		// border-top: 40px solid transparent;
+    // border-left: 360px solid transparent;
+    // border-bottom: 40px solid linear-gradient(red, yellow);
+		// border-right: 360px solid linear-gradient(red, yellow);
+		background-image: linear-gradient(red, yellow);
+	}
+}
