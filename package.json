@@ -25,21 +25,19 @@
     "gulp-nunjucks": "^3.0.0",
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^4.0.2",
-    "gulp-scss-lint": "^0.7.1",
+    "gulp-scss-lint": "^0.7.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
-    "run-sequence": "^2.2.1",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0",
-    "chai": "*",
     "mocha": "*",
+    "run-sequence": "^2.2.1",
     "selenium-webdriver": "*",
-    "chai-webdriver": "*",
-    "chromedriver": "*"
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "minimatch": "^3.0.2"
+    "minimatch": "^3.0.2",
+    "scss-lint": "^0.0.0"
   }
 }

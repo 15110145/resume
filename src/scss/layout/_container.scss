@@ -5,6 +5,7 @@
   padding-left: $container-padding;
   padding-right: $container-padding;
   width: $container-width;
+  min-height: $container-height;
 
   @include mediaquery--mobile() {
     padding-left: 16px;

@@ -15,6 +15,10 @@
     + .content__block {
       margin-top: 56px;
     }
+
+    p + p {
+      margin-top: 8px;
+    }
   }
 }
 

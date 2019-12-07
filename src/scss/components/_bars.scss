@@ -40,7 +40,13 @@
 
 	&--average {
 		.bars-skill__bar:before {
-			width: 60%;
+			width: 75%;
+		}
+	}
+
+	&--full {
+		.bars-skill__bar:before {
+			width: 100%;
 		}
 	}
 
