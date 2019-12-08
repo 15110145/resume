@@ -1,0 +1,18 @@
+.btn {
+  padding: 12px;
+
+  &--pdf {
+    border-radius: 50%;
+    background-color: $color-white;
+    box-shadow: 5px 10px 18px $color-gray;
+    line-height: 0;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
