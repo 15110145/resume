@@ -17,7 +17,7 @@ var plumber = require('gulp-plumber');
 
 var init = {
   srcPath: './src',
-  destPath: './docs'
+  destPath: './public'
 };
 
 gulp.task('html', () => {
